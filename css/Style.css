@@ -1,0 +1,31 @@
+.carousel-inner img{
+    width: 220px;
+     height: 445px;
+}
+
+.carousel-inner h1{
+    text-shadow: 1px 1px #000;
+    color: cornflowerblue;
+}
+.carousel-inner .carousel-caption{
+    background:rgba(200, 200,200,0.3) ;
+    border-radius: 7px;
+}
+.navbar{
+    background-color: #1b1b1beb !important;
+}
+.jumbotron{
+    border-top-left-radius: 0%;
+    border-top-right-radius:0% ;
+  text-align: center;
+}
+.card{
+    
+    align-items: center;
+}
+.card .btn {
+  
+}
+body{
+    background-color:rgb(29, 219, 210) ;
+}
