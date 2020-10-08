@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/Style.css">
     <title>EL BEKKOUCH_Med</title>
 </head>
-<body>
+<body >
 <!-- navbar-->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <a class="navbar-brand" href="#" style="color: aqua;">
-        EL BEKKOUCH Med
+        EL BEKKOUCH Mohammed
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -19,11 +20,14 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item ">
+          <a class="nav-link" href="#carouselExampleIndicators">My Projects <span class="sr-only">(current)</span></a>
         </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="#accordionExample">Skills <span class="sr-only">(current)</span></a>
+          </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Certificates</a>
+          <a class="nav-link" href="#certif">Certificates</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,7 +45,7 @@
         </li>
        
         <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#About">About Me</a>
           </li>
 
       </ul>
@@ -49,14 +53,70 @@
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
       </form>
-      <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Login</button>
-      </form>
+      
     </div>
   </nav>
+
 <!-- navbar-->
-<div class="container-fluid">
+
+<!-- about me-->
+<div id="bg-img"></div>
+
+<div id="About">
+<div class="container">
+<div class="row">
+    <div class="col">
+        <div id="AboutData">
+         <div class="card bg-white ">
+             <div class="card-title my-5">
+               <div class="media">
+                 <img src="images/profil.jpg" width="250" height="250"  class="img-fluid rounded-top mx-5 d-none d-md-block" >
+                  <div class="media-body">
+                    <h3 class="display-4 ml-5">I'm EL BEKKOUCH Mohammed</h3>
+                     <p class="text-muted ml-5">Software Engineering student at (INPT) || Full Stack Web Developer</p>
+                       <div class="container">
+                          <table class="table table-responsive ml-4">
+                              <tr>
+                                  <td class="text-muted">Age</td>
+                                  <td>:</td>
+                                  <td>22 Years Old</td>
+                              </tr>
+                              <tr>
+                                <td class="text-muted">Email</td>
+                                <td>:</td>
+                                <td>simobekouch@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">LinkedIn</td>
+                                <td>:</td>
+                                <td><a href="https://www.linkedin.com/in/mohammed-el-bekkouch-37371b191/">EL BEKKOUCH Mohammed</a></td>
+                            </tr>
+                            <tr>
+                                <td class="text-muted">Phone</td>
+                                <td>:</td>
+                                <td>0651398400</td>
+                            </tr>
+                          </table>
+                       </div>
+                    </div> 
+                </div>
+             </div>
+        
+         </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- about me-->
+
 <!-- carousel-->
+<div class="container-fluid">
+
 
 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -111,7 +171,7 @@
   <!-- carousel-->
   <!-- jumbotron-->
 
-  <div class="jumbotron bg-dark text-white">
+  <div class="jumbotron bg-dark text-white" >
     <h1 class="display-4">Hello, world!</h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
     <hr class="my-4">
@@ -121,9 +181,10 @@
   <!-- jumbotron-->
 
   <!-- collapse-->
-  <h1 class="text-center">Programming Languge <span class="badge badge-secondary">Love</span></h1>
+  
 
   <div class="accordion" id="accordionExample">
+    <h1 class="text-center" style="margin-bottom: 30px;">Programming Languge </h1>
     <div class="card bg-dark text-light">
       <div class="card-header" id="headingOne">
         <h2 class="mb-0">
@@ -172,9 +233,9 @@
   <!-- collapse-->
 
   <!-- Certificates-->
-  <div class="container-fluid " >
+  <div class="container-fluid " id="certif" >
     
- <h3 class="text-center" style="margin-top: 30px;">Certificates</h3>
+ <h1 class="text-center" style="margin-top: 30px;">Certificates</h1>
 <div class="row justify-content-center" >
 
     <div class="card bg-dark   col-lg-3 col-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin: 30px; padding: 4px;">
@@ -223,4 +284,5 @@
       
     </script>
 </body>
+
 </html>

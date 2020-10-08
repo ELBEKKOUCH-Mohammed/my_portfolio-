@@ -1,6 +1,7 @@
 .carousel-inner img{
     width: 220px;
      height: 445px;
+     border-radius: 7px;
 }
 
 .carousel-inner h1{
@@ -15,17 +16,28 @@
     background-color: #1b1b1beb !important;
 }
 .jumbotron{
-    border-top-left-radius: 0%;
-    border-top-right-radius:0% ;
+    
   text-align: center;
+  margin-top: 30px;
 }
+
 .card{
     
     align-items: center;
 }
-.card .btn {
-  
+
+#header a:hover{
+color: #FFF;
+}
+#bg-img {
+    background: url("https://pushinteractions-collegemobileinc.netdna-ssl.com/wp-content/themes/PushInteractions/blogimages/12.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
 body{
-    background-color:rgb(29, 219, 210) ;
+    background-color:#feffff ;
+}
+#About {
+    margin-top: -200px;
 }
